@@ -1,18 +1,7 @@
-/**
- * Created on 2015. 3. 8.
- * @author cskim -- hufs.ac.kr, Dept of CSE
- * Copy Right -- Free for Educational Purpose
- */
-
-
 import java.awt.Point;
 import java.awt.geom.Path2D;
 import java.util.ArrayList;
 
-/**
- * @author cskim
- *
- */
 public class Util {
 
 	public static final int MINPOLYDIST = 6;

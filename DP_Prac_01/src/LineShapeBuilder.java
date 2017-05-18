@@ -1,19 +1,9 @@
-/**
- * Created on 2015. 3. 8.
- * @author cskim -- hufs.ac.kr, Dept of CSE
- * Copy Right -- Free for Educational Purpose
- */
-
 
 import java.awt.Point;
 import java.awt.event.MouseEvent;
 import java.awt.geom.Line2D;
 import java.util.ArrayList;
 
-/**
- * @author cskim
- *
- */
 public class LineShapeBuilder implements ShapeBuilder {     // Observable 구현 클래스
 
 	GrimPanModel model = null;
@@ -22,9 +12,6 @@ public class LineShapeBuilder implements ShapeBuilder {     // Observable 구현 �
 		this.model = model;
 		observerList = new ArrayList();
 	}
-	/* (non-Javadoc)
-	 * @see hufs.cse.grimpan.strategy.ShapeBuilder#performMousePressed(java.awt.event.MouseEvent)
-	 */
 	
 	@Override
 	public void RegisterObserver(Observer observer)

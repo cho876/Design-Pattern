@@ -1,9 +1,3 @@
-/**
- * Created on 2015. 3. 8.
- * @author cskim -- hufs.ac.kr, Dept of CSE
- * Copy Right -- Free for Educational Purpose
- */
-
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -12,10 +6,6 @@ import java.awt.Shape;
 import java.awt.geom.AffineTransform;
 import java.io.Serializable;
 
-/**
- * @author cskim
- *
- */
 public class GrimShape implements Serializable {
 	/**
 	 * 
