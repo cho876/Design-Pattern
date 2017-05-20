@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="simplePropertyManager" class="hufs.cse.grimpan.util.SimplePropertyManager">
+		<constructor-arg value="default.properties" />
+	</bean>
+	<bean id="xmlPropertyManager" class="hufs.cse.grimpan.util.XMLPropertyManager">
+		<constructor-arg value="default.properties.xml" />
+	</bean>
+	<bean id="defaultPropertyConfigurer"
+		class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
+		<property name="location">
+			<value>classpath:default.properties</value>
+		</property>
+		<property name="ignoreResourceNotFound" value="true" />
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+	</bean>
+	<bean id="messageSource"
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="defaultEncoding" value="UTF-8"/>
+		<property name="basenames">
+			<list>
+				<value>classpath:messages</value>
+			</list>
+		</property>
+	</bean>
+</beans>
+      

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="default.stroke.width">1</entry>
+<entry key="default.stroke.color">666666</entry>
+
+<entry key="default.fill">yes</entry>
+<entry key="default.fill.color">FFFFFF</entry>
+
+<entry key="default.checkLine">no</entry>
+<entry key="default.checkOval">no</entry>
+<entry key="default.checkPencil">no</entry>
+<entry key="default.checkPolygon">no</entry>
+<entry key="default.checkRegular">yes</entry>
+
+<entry key="default.dirpath">C\:/home/cskim/temp/</entry>
+</properties>
